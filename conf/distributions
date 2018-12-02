@@ -1,0 +1,7 @@
+Origin: eskabetxe.github.io/debian-repo
+Label: eskabetxe.github.io/debian-repo
+Codename: stretch
+Architectures: amd64
+Components: main
+Description: personal repository
+SignWith: C901C62A9FE6C1A9
