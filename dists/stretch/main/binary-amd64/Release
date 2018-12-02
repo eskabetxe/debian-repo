@@ -1,0 +1,5 @@
+Component: main
+Origin: eskabetxe.github.io/debian-repo
+Label: eskabetxe.github.io/debian-repo
+Architecture: amd64
+Description: personal repository
