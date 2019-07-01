@@ -1,50 +1,50 @@
 Package: kudu
-Version: 1.9.0
+Version: 1.10.0-RC3
 Architecture: amd64
 Maintainer: Joao Boto <boto@boto.pro>
-Installed-Size: 56193
-Depends: libc6 (>= 2.15), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.8+dfsg), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), adduser
+Installed-Size: 57685
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.8+dfsg), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.0), adduser
 Homepage: https://github.com/eskabetxe
 Priority: extra
 Section: misc
-Filename: pool/main/k/kudu/kudu_1.9.0_amd64.deb
-Size: 14481218
-SHA256: f3a6d71f3d62afb763446d3ae7dde012ff7c8d531e70780052876c9d46afb351
-SHA1: ce829f88918134c2a137ffe186dc8061de1757d0
-MD5sum: 120b743b7c432de89df99ee65187ef9b
+Filename: pool/main/k/kudu/kudu_1.10.0-RC3_amd64.deb
+Size: 14851384
+SHA256: 9ec03cab85035069e7dab1934691713ce0fb006fe200f30f7424297c51a69256
+SHA1: d67fdcb2daca8cd643e83b478e96b35cf61d6be8
+MD5sum: 50a2500f87af009b1d5bcb2fd008e920
 Description: Apache Kudu Server
 
 Package: kudu-master
 Source: kudu
-Version: 1.9.0
+Version: 1.10.0-RC3
 Architecture: amd64
 Maintainer: Joao Boto <boto@boto.pro>
-Installed-Size: 50694
-Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.15), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.8+dfsg), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), kudu (= 1.9.0)
+Installed-Size: 51619
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.17), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.8+dfsg), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.0), kudu (= 1.10.0-RC3)
 Homepage: https://github.com/eskabetxe
 Priority: extra
 Section: misc
-Filename: pool/main/k/kudu/kudu-master_1.9.0_amd64.deb
-Size: 13111430
-SHA256: 00515c56d172f584d8e88fd32e0a2948648cddcb6e0d24b0c0d1d4cafb30085a
-SHA1: 9b0a979805235e9b02e123dab1e0edaecc33ca3c
-MD5sum: d25a3c86197b328079a3a385fc29c039
+Filename: pool/main/k/kudu/kudu-master_1.10.0-RC3_amd64.deb
+Size: 13336266
+SHA256: 59317694fe65e9a6b2802b1986424576582f6f58f14633261bbb28d0bc681c77
+SHA1: c83c87fefa8938ca99b455ceb93e306a3a2829d5
+MD5sum: 10e5364c119577323c28e0df6f037a80
 Description: Apache Kudu Master Server
 
 Package: kudu-tserver
 Source: kudu
-Version: 1.9.0
+Version: 1.10.0-RC3
 Architecture: amd64
 Maintainer: Joao Boto <boto@boto.pro>
-Installed-Size: 44476
-Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.15), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.8+dfsg), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), kudu (= 1.9.0)
+Installed-Size: 45134
+Depends: init-system-helpers (>= 1.18~), libc6 (>= 2.17), libgcc1 (>= 1:3.4), libgssapi-krb5-2 (>= 1.14+dfsg), libkrb5-3 (>= 1.8+dfsg), libsasl2-2, libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), zlib1g (>= 1:1.2.0), kudu (= 1.10.0-RC3)
 Homepage: https://github.com/eskabetxe
 Priority: extra
 Section: misc
-Filename: pool/main/k/kudu/kudu-tserver_1.9.0_amd64.deb
-Size: 11946040
-SHA256: abd169ed86ce2f7083e2038bc7045bf14c393aaa02c452edf05954254a92524c
-SHA1: 883e78cc4bd7a4912fbe4394f1d7d29c0c7a6878
-MD5sum: 4504fc9d5b423a81e76e7f0b44e83940
+Filename: pool/main/k/kudu/kudu-tserver_1.10.0-RC3_amd64.deb
+Size: 12090704
+SHA256: 99e3d42cc5eb636d07536b05333cb7cb9b4de695a346b9ef41023a749a254070
+SHA1: 1988a0fbd87fac5b97419c791e1ac44729666665
+MD5sum: 042460b3c4e89b65b30db0dc9cf8c50b
 Description: Apache Kudu Tablet Server
 
